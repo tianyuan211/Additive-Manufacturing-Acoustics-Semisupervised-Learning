@@ -43,6 +43,9 @@ cd Additive-Manufacturing-Acoustics-Semisupervised-Learning
 python VAE/VAE_Main.py
 python GANOmaly/GAN_Main.py
 ```
+#Data
+https://polybox.ethz.ch/index.php/s/Yv7c7BS6KLZAKHD
+
 # Results
 
 ![Model prediction](https://user-images.githubusercontent.com/39007209/199726999-526a5fd0-ef51-49e4-8499-3510d7b3463e.jpg)
