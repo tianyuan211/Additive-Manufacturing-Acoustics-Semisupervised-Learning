@@ -41,6 +41,7 @@ sns.set_style("whitegrid", {'axes.grid' : False})
 graphname=str(Material1)+'_weightage'+'.png'
 fig, ax = plt.subplots(figsize=(7,5), dpi=100)
 ax = sns.countplot(df.target,palette=["#fbab17", "#0515bf", "#10a310", "#e9150d"])
+ax.set_xticks(range(len(class_names)))  # 设置正确数量的x刻度
 ax.set_xticklabels(class_names);
 ax.xaxis.label.set_size(10)
 plt.savefig(graphname,bbox_inches='tight',pad_inches=0.1,dpi=800)
